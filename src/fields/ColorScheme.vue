@@ -45,9 +45,17 @@ export default {
         },
     },
     methods: {
-        // Your component's methods go here
         getSchemeName() {
+            this.checkIfSchemaExists();
+
             return this.options.schemes.find((scheme) => scheme.name === this.value).label;
+        },
+        checkIfSchemaExists() {
+            const exists = this.options.schemes.find((option) => option.name === this.value);
+            if (!exists) {
+                this.value = 'default';
+                this.$emit('input', 'default');
+            }
         },
     },
     computed: {
