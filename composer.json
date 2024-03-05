@@ -26,22 +26,6 @@
     }
   },
   "extra": {
-    "kirby-plugin": {
-      "name": "Color Schemes",
-      "version": "1.0.0",
-      "description": "A Kirby plugin for color schemes",
-      "icon": "icon.svg",
-      "tags": [
-        "color",
-        "schemes"
-      ],
-      "author": {
-        "name": "Stephan Plöhn",
-        "email": "ploehn@foerdeliebe.com",
-        "homepage": "https://foerdeliebe.com"
-      },
-      "license": "MIT"
-    },
     "installer-name": "color-schemes"
   }
 }
