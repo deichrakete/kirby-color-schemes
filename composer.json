@@ -1,0 +1,47 @@
+{
+  "name": "foerdeliebe/kirby-color-schemes",
+  "description": "Kirby plugin for color schemes",
+  "type": "kirby-plugin",
+  "keywords": [
+    "kirby",
+    "color-schemes",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/foerdeliebe/kirby-color-schemes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stephan Plöhn",
+      "email": "ploehn@foerdeliebe.com",
+      "homepage": "https://foerdeliebe.com"
+    }
+  ],
+  "require": {
+    "getkirby/cms": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Foerdeliebe\\KirbyColorSchemes\\": "src/"
+    }
+  },
+  "extra": {
+    "kirby-plugin": {
+      "name": "Color Schemes",
+      "version": "1.0.0",
+      "description": "A Kirby plugin for color schemes",
+      "icon": "icon.svg",
+      "tags": [
+        "color",
+        "schemes"
+      ],
+      "author": {
+        "name": "Stephan Plöhn",
+        "email": "ploehn@foerdeliebe.com",
+        "homepage": "https://foerdeliebe.com"
+      },
+      "license": "MIT"
+    },
+    "installer-name": "color-schemes"
+  }
+}
