@@ -1,5 +1,5 @@
 {
-  "name": "foerdeliebe/kirby-color-schemes",
+  "name": "deichrakete/kirby-color-schemes",
   "description": "Kirby plugin for color schemes",
   "type": "kirby-plugin",
   "keywords": [
@@ -7,14 +7,14 @@
     "color-schemes",
     "plugin"
   ],
-  "version": "1.0.0",
-  "homepage": "https://github.com/foerdeliebe/kirby-color-schemes",
+  "version": "2.0.0",
+  "homepage": "https://github.com/deichrakete/kirby-color-schemes",
   "license": "MIT",
   "authors": [
     {
       "name": "Stephan Plöhn",
-      "email": "ploehn@foerdeliebe.com",
-      "homepage": "https://foerdeliebe.com"
+      "email": "ploehn@deichrakete.com",
+      "homepage": "https://deichrakete.com"
     }
   ],
   "require": {
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Foerdeliebe\\KirbyColorSchemes\\": "src/"
+      "deichrakete\\KirbyColorSchemes\\": "src/"
     }
   },
   "extra": {

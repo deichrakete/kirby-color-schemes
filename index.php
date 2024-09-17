@@ -2,13 +2,13 @@
 
 use Kirby\Cms\App as Kirby;
 
-Kirby::plugin('foerdeliebe/color-schemes', [
+Kirby::plugin('deichrakete/color-schemes', [
     'fields' => [
         'colorscheme' => [
             'props' => [
                 'options' => function (): array {
-                    if (option('foerdeliebe.color-schemes.schemes')) {
-                        $options = option('foerdeliebe.color-schemes');
+                    if (option('deichrakete.color-schemes.schemes')) {
+                        $options = option('deichrakete.color-schemes');
                         return $options;
                     }
                     return [];
@@ -35,10 +35,10 @@ Kirby::plugin('foerdeliebe/color-schemes', [
     ],
     'translations' => [
         'en' => [
-            'foerdeliebe.color-schemes.title' => 'Color Schemes',
+            'deichrakete.color-schemes.title' => 'Color Schemes',
         ],
         'de' => [
-            'foerdeliebe.color-schemes.title' => 'Farbschemata',
+            'deichrakete.color-schemes.title' => 'Farbschemata',
         ],
     ],
 ]);

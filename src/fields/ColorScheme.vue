@@ -1,6 +1,6 @@
 <template>
     <div>
-        <k-field id="k-field-color-scheme" :label="$t('foerdeliebe.color-schemes.title')">
+        <k-field id="k-field-color-scheme" :label="$t('deichrakete.color-schemes.title')">
             <k-grid id="k-field-color-scheme" style="gap: 0.8rem; --columns: 6">
                 <div
                     align="center"

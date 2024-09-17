@@ -1,6 +1,6 @@
 import ColorScheme from "./fields/ColorScheme.vue";
 
-panel.plugin('foerdeliebe/color-schemes', {
+panel.plugin('deichrakete/color-schemes', {
   fields: {
     colorscheme: ColorScheme,
   }

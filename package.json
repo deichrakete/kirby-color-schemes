@@ -1,5 +1,5 @@
 {
-  "name": "foerdeliebe/color-schemes",
+  "name": "deichrakete/color-schemes",
   "version": "1.0.0",
   "description": "Description of your plugin",
   "main": "index.js",
@@ -9,9 +9,6 @@
     "kirby",
     "plugin"
   ],
-  "dependencies": {
-    "kirby": "^3.6.0"
-  },
   "scripts": {
     "dev": "npx -y kirbyup src/index.js --watch",
     "build": "npx -y kirbyup src/index.js"

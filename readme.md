@@ -14,7 +14,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
 2. In your Kirby configuration file (`site/config/config.php`), add the following line to enable the plugin:
 
 ```php
-'foerdeliebe.color-schemes' => [
+'deichrakete.color-schemes' => [
     'schemes' => [
         [ // Overwrites the default color scheme
             'name' => 'default', // also the css class
