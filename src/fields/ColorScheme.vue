@@ -15,10 +15,10 @@
                     <k-headline class="k-field-color-scheme-font">Aa</k-headline>
                     <k-grid class="k-field-color-scheme-buttons">
                         <div 
-                            :style="{ borderColor: option.colors.text, justifySelf: 'center' }"
+                            :style="{ borderColor: option.colors.primary, justifySelf: 'center' }"
                         ></div>
                         <div 
-                            :style="{ borderColor: option.colors.text, background: option.colors.text, justifySelf: 'center' }"
+                            :style="{ borderColor: option.colors.primary, background: option.colors.primary, justifySelf: 'center' }"
                         ></div>
                     </k-grid>
                 </div>

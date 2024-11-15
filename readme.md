@@ -15,6 +15,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
 
 ```php
 'deichrakete.color-schemes' => [
+    'class' => '[&_.button:hover]:no-underline', // add classes to all schemes
     'schemes' => [
         [ // Overwrites the default color scheme
             'name' => 'default', // also the css class
@@ -22,8 +23,9 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
             'colors' => [
                 'background' => '#ffffff',
                 'text' => '#000000',
-                'secondary' => '#00ffff',
-            ],
+                'primary' => '#00ffff', // buttons, links, ...
+        ],
+            'classes' => 'bg-white text-black' // Custom classes e.g. Tailwindcss
         ],
         [
             'name' => 'pastel1',
@@ -31,7 +33,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
             'colors' => [
                 'background' => '#f2e8d9',
                 'text' => '#5c5c5c',
-                'secondary' => '#b3cdd1',
+                'primary' => '#b3cdd1',
             ],
         ],
         [
@@ -40,7 +42,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
             'colors' => [
                 'background' => '#e8f2d9',
                 'text' => '#5c5c5c',
-                'secondary' => '#d1cbb3',
+                'primary' => '#d1cbb3',
             ],
         ],
         [
@@ -49,7 +51,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
             'colors' => [
                 'background' => '#d9e8f2',
                 'text' => '#5c5c5c',
-                'secondary' => '#b3d1cd',
+                'primary' => '#b3d1cd',
             ],
         ],
         [
@@ -58,7 +60,7 @@ The Kirby Color Schemes plugin provides a simple way to define and apply custom 
             'colors' => [
                 'background' => '#1a1a1a',
                 'text' => '#ffffff',
-                'secondary' => '#4d4d4d',
+                'primary' => '#4d4d4d',
             ],
         ],
     ]
